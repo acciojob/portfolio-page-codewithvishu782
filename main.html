@@ -8,21 +8,80 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h2>Skills</h2>
-  <ul>
-    <li>Skill 1</li>
-    <li>Skill 2</li>
-    <!-- Add more skills as needed -->
-  </ul>
-</section>
+	font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+        section {
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f1f1f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Image -->
+        <img src="your-image.jpg" alt="VISHAL">
 
-<section id="projects">
-  <h2>Projects</h2>
-  <ul>
-    <li>Project 1</li>
-    <li>Project 2</li>
-    <!-- Add more projects as needed -->
-  </ul>
+        <!-- Name -->
+        <h1>VISHAL</h1>
+
+        <!-- LinkedIn Profile -->
+        <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>List your skills here, such as HTML, CSS, JavaScript, React, etc.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1 - A brief description of your project.</li>
+                <li>Project 2 - A brief description of your project.</li>
+                <li>Project 3 - A brief description of your project.</li>
+            </ul>
+        </section>
+    </div>
+</body>
     <script type="text/javascript" src="./script.js">
 </script>
 
